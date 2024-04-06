@@ -1,10 +1,10 @@
 #!/bin/bash
 cd $HOME
-wget https://github.com/prometheus/node_exporter/releases/download/v1.6.0/node_exporter-1.6.0.linux-amd64.tar.gz
-tar -xzvf node_exporter-1.6.0.linux-amd64.tar.gz 
-sudo chmod +x node_exporter-1.6.0.linux-amd64/node_exporter
-sudo mv node_exporter-1.6.0.linux-amd64/node_exporter /usr/local/bin/
-rm node_exporter-1.6.0.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.7.0/node_exporter-1.7.0.linux-amd64.tar.gz
+tar -xzvf node_exporter-1.7.0.linux-amd64.tar.gz 
+sudo chmod +x node_exporter-1.7.0.linux-amd64/node_exporter
+sudo mv node_exporter-1.7.0.linux-amd64/node_exporter /usr/local/bin/
+rm node_exporter-1.7.0.linux-amd64.tar.gz
 
 echo "[Unit]
 Description=Node Exporter
